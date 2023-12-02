@@ -1,0 +1,160 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+    font-family: 'Jameel Noori Nastaleeq';
+    src: url('https://www.fontsaddict.com/fontface/jameel-noori-nastaleeq.ttf');
+  }
+  
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    
+  }
+  
+  li {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  body {
+    font-family: Arial;
+    padding: 20px;
+    background: #f1f1f1;
+  }
+  
+  /* Header/Blog Title */
+  .header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+  }
+  
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+  .leftcolumn {   
+    float: none;
+    width: auto;
+    padding: none;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    float: none;
+    width: 100%;
+    padding-left: 20px;
+  }
+  
+  /* Fake image */
+  .fakeimg {
+    background-color: #aaa;
+    width: 80%;
+    padding: 10px;
+
+  }
+  
+  /* Add a card effect for articles */
+  h2 {font-size:xx-large;
+    font-family: 'Jameel Noori Nastaleeq';  
+  }
+  h5{
+    font-size: large;
+    font-family: 'Jameel Noori Nastaleeq';  
+    
+  }
+  p{
+    font-size:medium;
+    font-family: 'Jameel Noori Nastaleeq';
+  }
+
+  .card {
+     background-color: white;
+     padding: 10px;
+     margin-top: 20px;
+     text-align: right;
+     font-size: small;
+     
+  }
+  
+  /* Clear floats after the columns */
+  /* .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+   */
+  /* Footer */
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+  }
+  /* .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: DodgerBlue;
+  }
+   */
+  /* .flex-container > 
+  div {
+    background-color: #f1f1f1;
+    width: 40%;
+    margin: 1px;
+    text-align: center;
+    line-height: 10px;
+    font-size: 10px;
+    padding: auto;
+    margin: 1px;
+  } */
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    gap: 10px;
+    border-color: #333;
+    padding: none;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: right;
+    padding: none;
+    font-size: 30px;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+  
+  .item1 {
+    width: auto;
+  }
+  .item2 {
+    width: auto;
+  } 
+  
+  
+  
+  
+
